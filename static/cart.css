@@ -1,0 +1,132 @@
+.cart {
+    width:70% ;
+    min-height:70% ;
+    height:auto;
+    border: 0px solid;position:relative ;
+    margin:auto;
+    top: 5% ;
+    background-color:white;
+    border-radius:30px;
+    box-shadow: 10px 20px 40px rgb(200,200,200,0.5);
+    display:flex;
+    flex-direction:column ;
+    
+}
+.cartcards {
+    width:100% ;
+    height:250px !important ;
+    display:flex;
+    margin:20px;
+}
+  .cartcards img {
+    width: 250px !important;
+    border-radius: 20px !important;
+    height:-webkit-fill-available;
+  }
+.cartdetails {
+    display:flex;
+    flex-direction:column;
+    align-items:center !important;
+    justify-content:center !important;
+    margin:50px ;
+}
+.cartname {
+  color:rgb(0,200,200);
+  font-size :45px;
+}
+.cartprice {
+    color:rgb(255, 0, 110);
+    font-size:30px;
+}
+.cartnumber {
+  width: auto;
+  text-align: center;
+  border: none;
+  margin:30px;
+  outline: none;
+  overflow:hidden;
+  display:flex;
+  height:20%;
+  align-self:center;
+  justify-content:space-evenly;
+  margin-right:0px !important;
+}
+.cartinc {
+    border-radius:50%;
+    background-color:rgb(0,250,150);
+    width:40px;
+    height:40px ;
+    border-radius:50%;
+    outline:none;
+    border:0px;
+    color:white;
+    cursor:pointer;
+    font-size:25px;
+}
+.cartinc:hover {
+    transform:scale(1.04);
+}
+.cartnumberinput {
+    width:15%;
+    outline:none;
+    font-size:20px;
+    font-weight:500;
+}
+.cartvalue {
+    font-size:40px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:fit-content;
+}
+.cartdelete { 
+  align-self: center;
+  margin:5%;
+ 
+}
+.cartdelete button {
+    height:auto ;
+    width:auto;
+  font-size: 18px !important;
+  background-color:red ;
+  color:white ;
+  outline:none ;
+  border:0px;
+  border-radius: 4px;
+  cursor:pointer;
+}
+.buycart {
+    padding:20px;
+    padding-right:40px !important;
+   display:flex;
+   justify-content:flex-end;
+}
+  .buycart span {
+    display: flex;
+    align-items: center;
+    margin-right:50px;
+    font-size:28px;
+  }
+.buycart button {
+    font-size:28px;
+    background-color:rgb(0,250,150) ;
+    color:white;
+    outline:none ;
+    border-radius:10px;
+    border:0px;
+    padding:10px;
+}
+.noproduct {
+    align-self:center;
+    margin:100px;
+    font-size:20px;
+}
+.noproduct span {
+    cursor:pointer;
+    text-decoration:underline;
+    color:blue ;
+}
+.cartcards {
+    
+}

@@ -1,0 +1,62 @@
+.placeorder {
+  width: 1000px;
+  
+  height: auto;
+  border: 0px solid;
+  position: relative;
+  margin: auto;
+  top: 5%;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 10px 20px 40px rgb(200,200,200,0.5);
+  display: flex;
+  flex-direction: column;
+}
+.details {
+    display:flex;
+  
+}
+.label, .input {
+  margin: 2.5%;
+  align-self: center;
+  display: flex;
+  justify-items: center;
+  padding: 2px;
+  font-size: 20px;
+  flex-direction: column ;
+}
+.label label {
+    margin:15px;
+}
+  .input input { 
+    margin: 10px;
+  }
+.input input {
+   border:0px;
+   border-bottom: 2px solid rgb(100,100,100) !important;
+    margin-left:25px;
+    outline:none;
+    overflow:scroll ;
+    font-size :18px;
+   
+}
+.pricebuy {
+    font-size:25px;
+    flex-grow:1;
+    padding-left:150px;
+    display:flex ;
+    justify-self:center;
+    align-items:center;
+}
+.confirmbuybtn {
+   align-self:end;
+   width:auto;
+   padding:10px;
+    margin:25px;
+    border:0px;
+    border-radius:10px ;
+    background-color:rgb(0,250,150);
+    color :white;
+    font-size:25px;
+    cursor:pointer;
+}
